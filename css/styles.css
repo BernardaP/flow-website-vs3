@@ -1,0 +1,1668 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+
+/* ======================================================================== 
+----------------------------------------------------------------------
+CUSTOM STYLES
+---------------------------------------------------------------------- 
+============================================================================*/
+html {
+  font-size: 100%;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    font-family: 'Saira', sans-serif;
+    font-size: 1.625rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+h2 {
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-size: 13px;
+    color: #4E4E4E;
+    font-weight: 300;
+}
+
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Title section */
+
+/* #title { 
+    background-color: grey; 
+    background-image:url(../images/homepage/coto-brown-grass.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 43%; 
+    height: 503px;
+    padding-top: 220px; 
+} */
+
+#title {
+  height: 503px;
+}
+
+#main-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home-image {
+   background-image:url(../images/homepage/coto-brown-grass.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 43%;
+    height: 503px;
+    
+}
+
+
+.who-image {
+  background-image:url(../images/who/watefall.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 17%;
+   
+}
+
+.why-image {
+  background-image:url(../images/why/bridge.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 93%;
+   
+}
+
+.approach-image {
+  background-image:url(../images/approach/mountains-houses.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 72%;
+}
+
+.projects-image {
+  background-image:url(../images/projects/town-cloud-mount.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 1% 42%;
+}
+
+.project1-image {
+  background-image:url(../images/projects/loma-grange.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 1% 65%;
+  height: 576px;
+}
+
+.project2-image {
+  background-image:url(../images/projects/project2.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 1% 95%;
+  height: 576px;
+}
+
+.project3-image {
+  background-image:url(../images/projects/project3.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 1%;
+  height: 576px;
+}
+
+.contact-image {
+  background-image:url(../images/contact/map-big.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 17%;
+}
+.overlay {
+    margin-top: -57px;
+    width: 100%;
+    height: 503px;
+    background-color:  #000000;
+    position: absolute;
+    opacity: 0.3;
+}
+
+#overlay-prjt1 {
+  height: 576px;
+}
+
+.navbar {
+    z-index: 5;
+}
+
+.navbar-logo{
+  background-image: url(../images/logo/FLOW_Logo_WHT.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.learn {
+   font-weight: bold;
+   color: inherit;
+}
+
+.overlay-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    /* left: 50%; */
+    top: 0;
+    right: 0;
+    background-color: #212121;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+}
+
+.overlay-content {
+    position: relative;
+    /* top: 25%; */
+    width: 100%;
+    text-align: left;
+    margin-top: 110px;
+    margin-left: 114px;
+}
+
+.overlay-nav a {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay-nav a:hover, .overlay a:focus {
+  color: grey;
+}
+
+
+.overlay-nav a.active {
+    text-decoration: underline #F7AC15;
+    -moz-text-decoration: underline #F7AC15;
+    -webkit-text-decoration: underline #F7AC15;
+    /* text-decoration-color: #F7AC15;
+    -moz-text-decoration-color: #F7AC15;
+    -webkit-text-decoration-color:#F7AC15; */
+    text-underline-position: under;
+    -moz-text-underline-position:under;
+    -webkit-text-underline-position: under;
+}
+
+@supports not ((text-decoration: underline #F7AC15) or (text-underline-position: under) or (-moz-text-decoration: underline #F7AC15) or (-webkit-text-decoration: underline #F7AC15) or (-moz-text-underline-position:under) or (-webkit-text-underline-position: under) ){
+  .overlay-nav a.active {
+   color: #F7AC15;
+    /* text-decoration: underline; */
+  }
+ 
+}
+
+a.language {
+  padding-top: 40px;
+  /* font-size: 15px; */
+}
+
+.icon-hamburger {
+  
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.icon-menu {
+  color: white;
+}
+
+.icon i {
+    /* margin-top: -7px;
+    font-size: 25px; */
+    /* padding-top: 0px; */
+    margin-right: 3px;
+    color: #FFFFFF;
+    
+}
+
+/* Position the close button (top left corner) */
+.overlay-nav .closebtn {
+  position: absolute;
+  top: 0;
+  /* left: 45px; */
+  right: 20px;
+  font-size: 30px;
+}
+
+.container-heading {
+    margin-top: 134px;
+    position: relative; 
+    /* z-index: 2; */
+}
+
+.container-content {
+    margin-left: 230px;
+    margin-right: 270px;
+}
+
+#projects-heading {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* Content Section */
+/* 
+#content {
+    text-align: left;
+    margin: 52px 80px;
+    line-height: 26px;
+} */
+
+.content {
+    height: auto;
+    text-align: left;
+    margin: 49px 70px;
+    line-height: 26px;
+  
+}
+
+/* .content {
+  height: 26%;
+    text-align: left;
+    margin: 49px 70px;
+    line-height: 26px;
+    padding-top: 55px;
+} */
+
+.content p {
+  color: #4E4E4E;
+}
+/* .table-projects {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #4E4E4E;
+  line-height: 21px;
+} */
+.tables h2 {
+  color: #4E4E4E;
+}
+.table-l {
+  font-family: 'Saira', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #4E4E4E;
+  line-height: 20px;
+  padding-right: 141px;
+
+}
+
+.table-r {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #4E4E4E;
+  line-height: 21px;
+  padding-right: 0px;
+    margin-top: 25px;
+    padding-left: 0px;
+    margin-left: -69px;
+}
+
+/* .table-right {
+  margin-top: 28px;
+} */
+/* .bold-content {
+  font-weight: 400;
+  
+}
+
+.spacing {
+  word-spacing: 10px;
+} */
+.content-contact {
+  margin: 0;
+  background-color: #F7AC15;
+  height: auto;
+  padding-left: 20px;
+  padding-top: 26px;
+  padding-bottom: 20px;
+}
+
+.contact h1, h2 {
+  text-align: left;
+  color: #FFFFFF;
+} 
+
+.contact h2 {
+  font-weight: 300;
+} 
+.contact {
+  padding-bottom: 20px ;
+  padding-left: 90px;
+}
+
+.contact p {
+  font-size: 15px;
+  padding-bottom: 0px;
+  margin-bottom: 1px;
+  font-weight: 200;
+  color: #FFFFFF;
+
+}  
+
+#content-why {
+  padding-top: 26px;
+}
+
+#content-approach {
+  padding-top: 0;
+  height: auto;
+}
+/* #content {
+  height: 26%;
+    text-align: left;
+    margin: 49px 80px;
+    line-height: 26px;
+    padding-top: 55px;
+} */
+
+#content-projects {
+  padding-top: 0;
+  height: auto;
+}
+
+/* #content-projects h2{
+  padding-left: 10px;
+} */
+
+.content-projct1 {
+  margin: 45px 40px 0px;
+
+}
+#more-info {
+    background-color: #F7AC15;
+    /* height: 235px; */
+    padding: 26px 150px;
+    
+    text-align: center;
+}
+
+#more-info h2 {
+  color: #4E4E4E;
+  text-align: inherit;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+#more-info p {
+    font-family: 'Saira', sans-serif;
+    padding: 5px 30px;
+}
+
+#more-info a {
+    color: inherit;
+}
+
+@supports not ((text-decoration: underline white) or (text-underline-position: under) ){
+  #more-info a:hover {
+    border-bottom: 1px solid white;
+  }
+}
+
+#more-info a:hover {
+    text-decoration: underline white;
+    text-underline-position: under;
+  
+}
+
+
+
+
+
+.projects-nav {
+  background-color: white;
+  margin-bottom: 29px;
+  margin-left: 41%;
+    width: 30%;
+    text-align: right;
+}
+
+.projects-nav h2 {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: inherit;
+  color: #4E4E4E;
+}
+
+/* .projects-nav h2:active {
+   color: #F7AC15;
+} */
+
+.projects-nav a:focus {
+  color: #F7AC15;
+}
+
+.info-items {
+    position: relative;
+    z-index: 4;
+} 
+
+.info-items a.active {
+  color:lightgray; 
+}
+/* .info-items a:hover {
+  color:lightgray 
+} */
+/* .icon-hamburger {
+  color: #FFFFFF;
+  padding: 10px;
+} */
+
+.icon {
+  color: #FFFFFF;
+  padding: 5px;
+  opacity: 0.6;
+}
+
+.icons{
+  display: inline-flex;
+  margin-left: 86px;
+}
+
+
+
+
+
+/* Footer section */
+
+/* #footer {
+    background-color: #9D9B9B;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    
+} */
+
+/* #footer {
+    top: 848px;
+    background-color: #9D9B9B;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+} */
+
+#footer {
+    
+    background-color: #9D9B9B;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+    width: 100%;
+   padding: 2% 2%; 
+   
+}
+
+
+#footer p {
+    /* font-family: 'Saira', sans-serif; */
+    font-weight: 200;
+    font-size: 10px;
+    color: #212121;
+}
+
+.bold-text {
+    font-weight: 500;
+    
+}
+
+.text-space {
+    word-spacing: 10px;
+    position: relative;
+    z-index: 4;
+}
+
+.logo{
+    background-image: url(../images/logo/FLOW_Seed_BLK.png);
+    /* background-position: 0px 43px; */
+    background-position: -36px 28px;
+
+    background-size: cover;    
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: absolute;
+    
+    /* width: 48%;
+    height: 78%;
+    left: -293px;
+    top: 434px; */
+   
+    width: 559px;
+    height: 523px;
+    left: -293px;
+    top: 416px;
+
+    /* width: 767px;
+    height: 548px;
+    left: -392px;
+    top: 366px; */
+    opacity: 0.05;
+}
+
+.logo-who {
+  background-image: url(../images/logo/FLOW_Seed_BLK.png); 
+  background-position: 198px -3px;
+  background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: absolute;
+    width: 432px;
+    height: 396px;
+    right: 0px;
+    top: 487px;
+    opacity: 0.05;
+}
+
+.logo-why {
+  background-image: url(../images/logo/FLOW_Seed_BLK.png);
+  background-position: -6px -3px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 3;
+  position: absolute;
+  width: 432px;
+  height: 390px;
+  left: -214px;
+  top: 495px;
+  opacity: 0.05;
+}
+
+.logo-approach {
+  background-image: url(../images/logo/FLOW_Seed_BLK.png);
+    background-position: 212px 11px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: absolute;
+    width: 432px;
+    height: 455px;
+    right: 0px;
+    top: 487px;
+    opacity: 0.05;
+}
+
+.logo-projects {
+  background-image: url(../images/logo/FLOW_Seed_BLK.png);
+  background-position: -45px 2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 3;
+  position: absolute;
+  width: 432px;
+  height: 436px;
+  left: -214px;
+  top: 425px;
+  opacity: 0.05;
+}
+
+.logo-project1 {
+  background-image: url(../images/logo/FLOW_Seed_BLK.png);
+  background-position: 252px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 3;
+  position: absolute;
+  width: 531px;
+    height: 512px;
+    right: 0px;
+    top: 555px;
+  opacity: 0.05;
+}
+
+.logo-project2 {
+  top: 542px;
+}
+
+.logo-project3 {
+  /* background-position: -272px 9px; */
+  width: 457px;
+    height: 512px;
+    /* left: 0px; */
+    top: 471px;
+}
+
+.logo-contact {
+  background-image: url(../images/logo/FLOW_Seed_BLK.png); 
+  background-position: 127px 0px;
+  background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: absolute;
+    width: 431px;
+    height: 410px;
+    right: 0px;
+    top: 512px;
+    opacity: 0.05;
+}
+
+.options {
+    margin: 0px;
+    margin-left: -20px;
+}
+
+.contact-box {
+  padding-top: 15px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.checkbox a:link, a:visited {
+  background-color: white;
+  
+  /* border: 2px solid #9D9B9B; */
+  padding: 7px 7px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  float: left;
+  margin: 6px;
+}
+
+.checkbox a:hover, a:active {
+  background-color: #349ED8;
+  /* color: white; */
+}
+
+/* .env-line-height {
+  line-height: 25px;
+} */
+
+/* ----------------------------------- 
+            Media Queries 
+------------------------------------ */
+
+/* title section */
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  /* .overlay-nav a {font-size: 15px} */
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    left: 35px;
+  }
+}
+
+/* LAPTOP LARGE */
+
+@media (min-width:1440px) {
+  .content {
+    height: auto;
+    margin: 49px 70px 77px;
+  }
+  .overlay-content {
+    
+    width: auto;
+    margin-right: 440px;
+}
+  .logo {
+    background-position: -12px -4px;
+    width: 604px;
+    height: 482px;
+    left: -293px;
+    top: 469px;
+  }
+  .logo-who {
+    height: 348px;
+    top: 400px;
+  }
+  .logo-why {
+    background-position: -6px 2px;
+    height: 411px;
+    top: 415px;
+  }
+  .logo-projects {
+    background-position: -45px 1px;
+    top: 437px;
+  }
+  .logo-approach {
+    top: 404px;
+  }
+  .logo-project1 {
+    background-position: 252px 0px;
+  }
+  .logo-project2 {
+    top: 650px;
+  }
+  .logo-project3 {
+    
+    top: 550px;
+  }
+  .who-image {
+    background-position: 0% 21%;
+  }
+  .table-r {
+    margin-top: 55px;
+  }
+  
+  .logo-contact {
+    background-position: 85px 0px;
+    width: 376px;
+    height: 392px;
+    top: 506px;
+  }
+
+  .content-contact {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 1px;
+    padding-right: 0;
+  }
+  #more-info {
+        padding: 26px 150px 10px;
+  }
+
+} 
+
+
+
+@media (max-width: 1280px) {
+  .content {
+    height: auto;
+    padding-top: 0;
+  }
+
+  .logo {
+    background-position: -52px 15px;
+    width: 593px;
+    height: 587px;
+    left: -293px;
+    top: 406px;
+  }
+  .logo-who {
+    top: 431px;
+  }
+  .logo-why {
+    top: 489px;
+  }
+  .logo-contact {
+    top: 405px;
+  }
+  .content-contact {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 1px;
+    padding-right: 0;
+  }
+  #more-info {
+   padding: 26px 168px 13px;
+  } 
+
+}
+
+/* LAPTOP */
+
+@media (max-width: 1024px) {
+  .container-content {
+    
+    margin-right: 240px;
+  }
+
+  .overlay-content {
+    
+    width: auto;
+    margin-right: 300px;
+  }
+  .logo {
+    background-position: -52px 15px;
+    width: 572px;
+    height: 530px;
+    left: -255px;
+    top: 469px;
+  }
+  .logo-who {
+    height: 402px;
+        top: 402px;
+  }
+  .logo-why {
+    height: 337px;
+  }
+  .logo-approach {
+    background-position: 5px 4px;
+    top: 454px;
+    width: 247px;
+  }
+  .logo-projects {
+    top: 453px;
+  }
+  .logo-project1 {
+    background-position: 253px 0px;
+    top: 625px;
+    right: 0px;
+  }
+  .logo-project2 {
+    top: 625px;
+  }
+  .logo-project3 {
+    top: 655px;
+  }
+  .content-projct1 {
+    margin: -5px 40px 0px;
+  }
+
+  .logo-contact {
+    width: 376px;
+    height: 392px;
+    top: 505px;
+  }
+
+  .content-contact {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 1px;
+    padding-right: 0;
+  }
+
+  .tables h2 {
+    margin-top: 47px;
+  }
+  .table-r {
+    margin-top: 100px;
+  }
+
+  #more-info {
+    padding: 26px 112px 9px;
+  }
+
+   #content-why {
+    padding-top: 0;
+  }
+
+}
+
+/* 
+@media (max-width: 1023px) and (min-width:769px) {
+  .logo {
+    background-position: -72px 0px;
+        width: 593px;
+    height: 587px;
+    left: -293px;
+    top: 492px;
+  }
+  .container-content {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+} */
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  .logo {
+     background-position: -72px 0px;
+    width: 593px;
+    height: 601px;
+    left: -293px;
+    top: 642px;
+  }
+
+  .logo-who {
+    height: 400px;
+    top:455px;
+  }
+  .logo-why {
+    width: 432px;
+    height: 404px;
+    top: 506px;
+    opacity: 0.05;
+  }
+  .logo-approach {
+    background-position: 212px -2px;
+    height: 464px;
+    top: 522px;
+  }
+  .logo-projects {
+    background-position: -45px 0px;
+    top: 707px;
+  }
+  
+  .logo-project1 {
+    background-position: 253px 0px;
+    top: 730px;
+    right: 0px;
+
+  }
+  .logo-project2 {
+    top: 830px;
+  }
+  .logo-project3 {
+    top: 740px;
+  }
+  .logo-contact {
+    /* background-position: 95px 20px; */
+    width: 376px;
+    height: 392px;
+    top: 504px;
+  }
+  .container-content {
+    margin-left: 0px; 
+    margin-right: 0px;
+  }
+  .content-contact {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 1px;
+    padding-right: 0;
+  }
+
+  .table-l {
+    padding-right: 45px;
+  }
+   .table-r {
+    padding-right: 45px;
+    margin-top: 25px;
+    margin-left: 0;
+    padding-left: 15px;
+    margin-bottom: 0;
+  }
+  .tables h2 {
+    margin-top: 50px;
+  }
+  .projects-nav {
+    margin-left: 44%;
+       
+  }
+  .projects-nav h2 {
+    text-align: left;
+  }
+  
+  #content-why {
+    padding-top: 0;
+  }
+
+  #more-info {
+    padding: 26px 242px 10px;
+  }
+  #more-info p {
+    padding: 5px 45px;
+  }
+  #projects-heading {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+  
+  .text-space {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/*  Small devices (landscape phones) */
+
+@media (max-width: 667px) {
+  #more-info {
+    padding: 26px 217px 13px;
+  }
+   .bold-text {
+    
+    float: left;
+    margin: 0 5px 2px 0;
+  }
+
+  .text-space {
+    padding-left: 20px;
+    padding-right: 66px;
+  }
+  .copyright {
+    padding-right: 20px;
+  }
+
+  .logo-who {
+    height: 403px;
+    top: 504px;
+  }
+}
+
+@media (max-width: 576px) { 
+  #more-info {
+    padding: 26px 145px 13px;
+  }
+
+  .bold-text {
+    
+    float: left;
+    margin: 0 5px 2px 0;
+  }
+
+  .text-space {
+    padding-left: 20px;
+    padding-right: 29px;
+  }
+
+}
+
+/* MOBILE LARGE */
+
+@media (max-width: 425px) {
+  .overlay-content {
+    margin-left: 50px;
+  }
+  
+  .overlay-nav a {
+    font-size: 15px
+  }
+  
+  .content {
+    margin: 30px 45px;
+    padding-top: 0px;
+  }
+
+  #projects-heading {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -60px;
+  }
+
+  .home-image {
+    background-position: 46% 43%;
+  }
+  
+  .why-image {
+    background-position: 37% 0%;
+  }
+
+  .contact-image {
+    background-position: 49% 0%;
+  }
+
+  .project1-image {
+    background-position: 50% 0%;
+
+  }
+
+  .project3-image {
+    background-position: 19% 1%;
+  }  
+  .container-content {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  .logo {
+    top: 479px;
+  }
+
+  .logo-who {
+    background-position: 31px 1px;
+    width: 273px;
+    height: 404px;
+    right: 0px;
+    top: 674px;
+  }
+
+  .logo-why {
+    background-position: -6px 0px;
+    height: 401px;
+    left: -214px;
+    top: 799px;
+    opacity: 0.05;
+  }
+  .logo-approach {
+    background-position: 278px -9px;
+    height: 470px;
+    top: 777px;
+  }
+   .logo-projects {
+        background-position: -45px 1px;
+       top: 615px; 
+  }
+
+  .logo-project1 {
+    background-position: 74px 0px;
+    width: 300px;
+    height: 558px;
+    right: 0px;
+    top: 1160px;
+  }
+  .logo-project2 {
+    top: 1234px;
+  }
+.logo-project3 {
+  top: 1069px;
+}
+  .logo-contact {
+    background-position: 20px 0px;
+    width: 239px;
+    height: 417px;
+    right: 0px;
+    top: 633px;
+  }
+
+  #more-info {
+    padding: 26px 100px;
+  }
+  
+  #more-info p {
+    padding: 5px 18px;
+  }
+  .info-items {
+    margin-bottom: -20px;
+  }
+
+  .table-l {
+        padding-right: 5px;
+    padding-left: 5px;
+    margin-top: -30px;
+    padding-top: 0;
+  }
+
+  .table-r {
+    padding-right: 10px;
+    margin-top: 25px;
+    margin-left: 0;
+    padding-left: 10px;
+    margin-bottom: -15px;
+  }
+  .projects-nav {
+    margin-left: 41%;
+    margin-bottom: 40px;
+    text-align: left;   
+  }
+
+   .content-contact {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 1px;
+    padding-right: 0;
+  }
+  .contact {
+    padding-left: 25px;
+    padding-right: 29px;
+  }
+   .icons {
+    margin-left: 25px;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 4% 2% 0%; 
+  }
+
+  .bold-text {
+    
+    float: none;
+    margin: 0; 
+  }
+  
+}
+
+@media (min-width: 360px) {
+  .container-heading {
+    margin-top: 100px;
+  }
+
+}    
+  /* #more-info {
+  padding: 26px 105px;
+  }
+} */
+/* MOBILE SMALL */
+
+@media (max-width: 320px) {
+
+  /* .overlay-nav {
+    width: 100%;
+  } */
+  .who-image {
+    background-position: 99% 0%;
+  }
+  .approach-image {
+    background-position: 60% 0%;
+  }
+
+  .projects-image {
+    background-position: 83% 0%;
+  }
+  .container-content {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .container-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    margin: 30px 45px;
+    padding-top: 0px;
+  }
+  .content-contact {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 1px;
+    padding-right: 0;
+  }
+  .contact {
+    padding-left: 25px;
+    padding-right: 29px;
+  }
+  /* .icons {
+    margin-left: 25px;
+  } */
+
+  #more-info {
+    padding: 26px 73px;
+  }
+   /* #more-info p {
+    padding: 5px 18px;
+  }
+  .info-items {
+    margin-bottom: -20px;
+  } */
+  .logo{
+    background-position: -166px 0px;
+    top: 470px;
+  }
+ 
+  .logo-contact {
+    background-position: 5px 6px;
+    width: 181px;
+    height: 440px;
+    right: 0;
+    top: 504px;
+  }
+ 
+  
+  .projects-nav {
+    margin-left: 125px;
+    margin-bottom: 40px;
+    text-align: left;   
+  }
+  /* #projects-heading {
+    margin-left: 20px;
+    margin-right: 20px;
+  } */
+
+}

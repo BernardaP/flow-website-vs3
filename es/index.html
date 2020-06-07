@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow</title>
+
+    <!-- Google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Saira:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- hamburger icon  stylesheet-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+
+
+</head>
+
+<body>
+    <!-- Title -->
+    <section id="title" class="home-image">
+        <div class="container-fluid" id="main-container">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-dark ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../images/logo/FLOW_Logo_WHT_ND.png" width="112" height="25" alt="website logo">
+                </a>
+  
+                <!-- Nav overlay -->
+                <div id="myNav" class="overlay-nav">
+                    
+                    <!-- overlay navigation close button -->
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    
+                    <!-- Nav overlay content -->
+                    <div class="overlay-content">
+                        <a class="active" href="index.html">Inicio</a>
+                        <a href="nosotros.html">Quienes somos</a>
+                        <a href="acerca.html">Porque existimos</a>
+                        <a href="enfoque.html">Nuestro enfoque</a>
+                        <a href="proyectos.html">Proyectos</a>
+                        <a href="contacto.html">Contáctanos</a>
+                        <a class="language" href="../index.html">English</a>
+                    </div>
+                </div>
+
+                <!-- open nav overlay navigation -->
+                
+                <a aria-label="Main Menu" class="icon-hamburger" onclick="openNav()">
+                        <i class="fa fa-bars fa-lg icon-menu"></i>
+                        
+                </a>
+            
+            </nav>
+                     
+            <div class="overlay"></div>
+            
+            <div class="container-heading">
+                <h1>Manifiesto.</h1>
+                <h1 class="container-content">Trabajando juntos como un equipo con individuos, comunidades y organizaciones, donde el agua es el
+                centro, para lograr un objetivo común.</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="logo-img">
+        <div class="logo"></div>
+    </section>
+
+    <section class="content" id="content">
+        <p>En Flow, entendemos que cada proyecto comienza con un resultado deseado. Somos muy conscientes que el camino para
+        alcanzar ese resultado no siempre es una línea recta; puede tomar muchos giros inesperados. Nuestro objetivo es trabajar
+        con todos los involucrados para asegurar que los recursos hídricos y aquellos que habitan la tierra no se vean
+        comprometidos, todo esto mientras enfrentan desafíos imprevistos que vienen con cada proyecto.</p>
+        <p>Flow es una firma de consultoría con sede en Ecuador y que trabaja en toda América del Sur. Hacemos nuestro mejor
+        trabajo en la intersección de la hidrología y los conflictos sociales que afectan a las comunidades donde el agua es
+        central.</p>
+    </section>
+
+    <section id="more-info">
+        <div class=" info-items row">
+            <div class="col-lg-3">
+                <h2><a href="nosotros.html">Quienes somos</a></h2>
+                <p>Flow es creatividad, apoyo, y más... <a class="learn" href="nosotros.html">leer más</a>.</p>
+            </div>
+
+            <div class="col-lg-3">
+                <h2><a href="acerca.html">Porque nosotros</a></h2>
+                <p>El manejo hidrológico también necesita un lado humano... <a class="learn" href="acerca.html">leer más</a>.</p>
+            </div>
+        
+            <div class="col-lg-3">
+                <h2> <a href="enfoque.html">Enfoque</a> </h2>
+                <p>No hay dos proyectos o situaciones iguales... <a class="learn" href="enfoque.html">leer más</a>.</p>
+            </div>
+            
+            <div class="col-lg-3">
+                <h2> <a href="proyectos.html">Proyectos</a></h2>
+                <p>La hidrología y la resolución de conflictos son solo una parte de la historia ... <a class="learn" href="proyectos.html">leer más</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="text-space">
+            <p><span class="bold-text">Email</span> <a href="mailto:pmorenoa@flow-ecuador.com" target="_blank">pmorenoa@flow-ecuador.com</a></p>
+        </div>
+        <div class="text-space">
+            <p><span class="bold-text">Teléfonos</span> +593-099-161-0741 +593-099-953-9970</p>
+        </div>
+        <div class="copyright">
+            <p>© 2020 All Rights Reserved. Developed by <a href="#">workerB</a></p>
+        </div>
+    </footer>
+
+    <!-- Nav overlay button Javascript  -->
+    <!-- Open when someone clicks on the span element  -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "50%";
+        }
+    
+        //  <!--Close when someone clicks on the "x" symbol inside the overlay-- >
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+      
+    </script>
+   
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

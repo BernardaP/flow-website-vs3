@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Approach</title>
+
+    <!-- Google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Saira:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- hamburger icon  stylesheet-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+    <section id="title" class="approach-image">
+        <div class="container-fluid" id="main-container">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-dark ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo/FLOW_Logo_WHT_ND.png" width="112" height="25" alt="website logo">
+                </a>
+                <!-- Nav overlay -->
+                <div id="myNav" class="overlay-nav">
+                    <!-- overlay navigation close button -->
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <!-- Nav overlay content -->
+                    <div class="overlay-content">
+                        <a href="index.html">Home</a>
+                        <a href="who.html">Who</a>
+                        <a href="why.html">Why</a>
+                        <a class="active" href="approach.html">Approach</a>
+                        <a href="projects.html">Projects</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <!-- open nav overlay navigation -->
+                <a aria-label="Main Menu" class="icon" onclick="openNav()">
+                    <i class="fa fa-bars fa-lg"></i>
+                </a>
+            </nav>
+
+            <div class="overlay"></div>
+
+            <div class="container-heading">
+                <h1 class="container-content">No two projects or situations are the same.</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="logo-img">
+        <div class="logo-approach"></div>
+    </section>
+
+    <section class="content" id="content-approach">
+        <p>Flow is a multidisciplinary firm with unparalleled hydrology experience on projects large and small of varied
+            complexities. Flow is capable of being the boots on the ground providing field work, scientific research,
+            hydrologic and
+            biotic monitoring, hydroclimatic monitoring networks, technical studies for feasibility for future mines,
+            build and
+            train teams, and resolving social conflicts between mining, oil, hydropower, geothermal and environmental
+            conservation
+            companies and communities before minor issues become major ones through community support and cooperation.
+        </p>
+        <p>Every natural resources project comes with its unique set of challenges and obstacles that require solutions
+            tailored to
+            that specific project.</p>
+        <p>Sometimes our work begins long before the first shovel breaks ground. We consider not only the spoken, but
+            the unspoken
+            and the subtle nuances. Our goal is to resolve social conflicts that arise with the presence of natural
+            resources
+            companies in communities before the field work or hydrology work begins.</p>
+        <p>In the early stages of a project, our approach is very low tech ... we listen, then devise a plan that takes
+            into
+            account the land, its inhabitants and the project’s objectives. The plan needs to be fair and equitable for
+            all.</p>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer id="footer">
+        <div class="text-space">
+            <p><span class="bold-text">Email</span> <a href="mailto:pmorenoa@flow-ecuador.com"
+                    target="_blank">pmorenoa@flow-ecuador.com</a></p>
+        </div>
+        <div class="text-space">
+            <p><span class="bold-text">Phones </span> +593-099-161-0741 +593-099-953-9970</p>
+        </div>
+        <div class="copyright">
+            <p>© 2020 All Rights Reserved. Developed by <a href="#">workerB</a></p>
+        </div>
+    </footer>
+
+    <!-- Nav overlay button Javascript  -->
+    <!-- Open when someone clicks on the span element  -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "50%";
+        }
+
+        //  <!--Close when someone clicks on the "x" symbol inside the overlay-- >
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
